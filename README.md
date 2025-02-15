@@ -3,12 +3,12 @@ A mono repo for all AI related tools. Feel free to fork and raise pull Requests 
 
 # layout
 
-- <category>/<ai-tool>/<component>
-- <category>/<ai-tool>/docs
+- `/<category>/<ai-tool>/<component>`
+- `/<category>/<ai-tool>/docs`
   
 For generic tools
   
-- <category>/common/<component>
+- `<category>/common/<component>`
 
 Where 'category might be 'tools', 'docs' etc
 
