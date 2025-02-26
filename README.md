@@ -1,6 +1,8 @@
 # ai_tools
 A mono repo for all AI related tools. Feel free to fork and raise pull Requests to have updated
 
+See [what is a mono repo?](https://semaphoreci.com/blog/what-is-monorepo) (basically everything in one repo, vs multiple smaller ones)
+
 # layout
 
 - `/<category>/<ai-tool>/<component>`
