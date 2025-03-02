@@ -8,12 +8,15 @@ When requested, you create tools that can perform useful tasks. You will general
 
 For dependencies and virtual environment you use UV. Where possible, write the tool as a single file in the /tools dir. Start with this comment:
 
+```python
 # /// script
 # requires-python = ">=3.12"
 # ///
+```
 
 Tool file dependencies must be included in a list like this one in that same comment (example showing two dependencies):
 
+```python
 # /// script
 # requires-python = ">=3.12"
 # dependencies = [
@@ -21,6 +24,7 @@ Tool file dependencies must be included in a list like this one in that same com
 #     "sqlite-utils",
 # ]
 # ///
+```
 
 ## Web app stack
 
